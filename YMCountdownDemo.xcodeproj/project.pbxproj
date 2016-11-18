@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6AA82101D8006CD00CA2419 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AA820F1D8006CD00CA2419 /* main.m */; };
+		C6AA82131D8006CD00CA2419 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AA82121D8006CD00CA2419 /* AppDelegate.m */; };
+		C6AA82161D8006CD00CA2419 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AA82151D8006CD00CA2419 /* ViewController.m */; };
+		C6AA82191D8006CD00CA2419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6AA82171D8006CD00CA2419 /* Main.storyboard */; };
+		C6AA821B1D8006CD00CA2419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6AA821A1D8006CD00CA2419 /* Assets.xcassets */; };
+		C6AA821E1D8006CD00CA2419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6AA821C1D8006CD00CA2419 /* LaunchScreen.storyboard */; };
+		C6AA82291D8006CD00CA2419 /* YMCountdownDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AA82281D8006CD00CA2419 /* YMCountdownDemoTests.m */; };
+		C6AA82341D8006CD00CA2419 /* YMCountdownDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AA82331D8006CD00CA2419 /* YMCountdownDemoUITests.m */; };
+		C6AA824A1D800D0100CA2419 /* YMCountDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AA82481D800D0100CA2419 /* YMCountDownCell.m */; };
+		C6AA824B1D800D0100CA2419 /* YMCountDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6AA82491D800D0100CA2419 /* YMCountDownCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6AA82251D8006CD00CA2419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6AA82031D8006CD00CA2419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6AA820A1D8006CD00CA2419;
+			remoteInfo = YMCountdownDemo;
+		};
+		C6AA82301D8006CD00CA2419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6AA82031D8006CD00CA2419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6AA820A1D8006CD00CA2419;
+			remoteInfo = YMCountdownDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6AA820B1D8006CD00CA2419 /* YMCountdownDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMCountdownDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AA820F1D8006CD00CA2419 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6AA82111D8006CD00CA2419 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6AA82121D8006CD00CA2419 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6AA82141D8006CD00CA2419 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6AA82151D8006CD00CA2419 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6AA82181D8006CD00CA2419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6AA821A1D8006CD00CA2419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6AA821D1D8006CD00CA2419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6AA821F1D8006CD00CA2419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6AA82241D8006CD00CA2419 /* YMCountdownDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMCountdownDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AA82281D8006CD00CA2419 /* YMCountdownDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMCountdownDemoTests.m; sourceTree = "<group>"; };
+		C6AA822A1D8006CD00CA2419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6AA822F1D8006CD00CA2419 /* YMCountdownDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMCountdownDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AA82331D8006CD00CA2419 /* YMCountdownDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMCountdownDemoUITests.m; sourceTree = "<group>"; };
+		C6AA82351D8006CD00CA2419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6AA82471D800D0100CA2419 /* YMCountDownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCountDownCell.h; sourceTree = "<group>"; };
+		C6AA82481D800D0100CA2419 /* YMCountDownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCountDownCell.m; sourceTree = "<group>"; };
+		C6AA82491D800D0100CA2419 /* YMCountDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMCountDownCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6AA82081D8006CD00CA2419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AA82211D8006CD00CA2419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AA822C1D8006CD00CA2419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6AA82021D8006CD00CA2419 = {
+			isa = PBXGroup;
+			children = (
+				C6AA820D1D8006CD00CA2419 /* YMCountdownDemo */,
+				C6AA82271D8006CD00CA2419 /* YMCountdownDemoTests */,
+				C6AA82321D8006CD00CA2419 /* YMCountdownDemoUITests */,
+				C6AA820C1D8006CD00CA2419 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6AA820C1D8006CD00CA2419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA820B1D8006CD00CA2419 /* YMCountdownDemo.app */,
+				C6AA82241D8006CD00CA2419 /* YMCountdownDemoTests.xctest */,
+				C6AA822F1D8006CD00CA2419 /* YMCountdownDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6AA820D1D8006CD00CA2419 /* YMCountdownDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA82411D80072600CA2419 /* YMCountdown */,
+				C6AA82111D8006CD00CA2419 /* AppDelegate.h */,
+				C6AA82121D8006CD00CA2419 /* AppDelegate.m */,
+				C6AA82141D8006CD00CA2419 /* ViewController.h */,
+				C6AA82151D8006CD00CA2419 /* ViewController.m */,
+				C6AA82471D800D0100CA2419 /* YMCountDownCell.h */,
+				C6AA82481D800D0100CA2419 /* YMCountDownCell.m */,
+				C6AA82491D800D0100CA2419 /* YMCountDownCell.xib */,
+				C6AA82171D8006CD00CA2419 /* Main.storyboard */,
+				C6AA821A1D8006CD00CA2419 /* Assets.xcassets */,
+				C6AA821C1D8006CD00CA2419 /* LaunchScreen.storyboard */,
+				C6AA821F1D8006CD00CA2419 /* Info.plist */,
+				C6AA820E1D8006CD00CA2419 /* Supporting Files */,
+			);
+			path = YMCountdownDemo;
+			sourceTree = "<group>";
+		};
+		C6AA820E1D8006CD00CA2419 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA820F1D8006CD00CA2419 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6AA82271D8006CD00CA2419 /* YMCountdownDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA82281D8006CD00CA2419 /* YMCountdownDemoTests.m */,
+				C6AA822A1D8006CD00CA2419 /* Info.plist */,
+			);
+			path = YMCountdownDemoTests;
+			sourceTree = "<group>";
+		};
+		C6AA82321D8006CD00CA2419 /* YMCountdownDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA82331D8006CD00CA2419 /* YMCountdownDemoUITests.m */,
+				C6AA82351D8006CD00CA2419 /* Info.plist */,
+			);
+			path = YMCountdownDemoUITests;
+			sourceTree = "<group>";
+		};
+		C6AA82411D80072600CA2419 /* YMCountdown */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YMCountdown;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6AA820A1D8006CD00CA2419 /* YMCountdownDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AA82381D8006CD00CA2419 /* Build configuration list for PBXNativeTarget "YMCountdownDemo" */;
+			buildPhases = (
+				C6AA82071D8006CD00CA2419 /* Sources */,
+				C6AA82081D8006CD00CA2419 /* Frameworks */,
+				C6AA82091D8006CD00CA2419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMCountdownDemo;
+			productName = YMCountdownDemo;
+			productReference = C6AA820B1D8006CD00CA2419 /* YMCountdownDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6AA82231D8006CD00CA2419 /* YMCountdownDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AA823B1D8006CD00CA2419 /* Build configuration list for PBXNativeTarget "YMCountdownDemoTests" */;
+			buildPhases = (
+				C6AA82201D8006CD00CA2419 /* Sources */,
+				C6AA82211D8006CD00CA2419 /* Frameworks */,
+				C6AA82221D8006CD00CA2419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6AA82261D8006CD00CA2419 /* PBXTargetDependency */,
+			);
+			name = YMCountdownDemoTests;
+			productName = YMCountdownDemoTests;
+			productReference = C6AA82241D8006CD00CA2419 /* YMCountdownDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6AA822E1D8006CD00CA2419 /* YMCountdownDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AA823E1D8006CD00CA2419 /* Build configuration list for PBXNativeTarget "YMCountdownDemoUITests" */;
+			buildPhases = (
+				C6AA822B1D8006CD00CA2419 /* Sources */,
+				C6AA822C1D8006CD00CA2419 /* Frameworks */,
+				C6AA822D1D8006CD00CA2419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6AA82311D8006CD00CA2419 /* PBXTargetDependency */,
+			);
+			name = YMCountdownDemoUITests;
+			productName = YMCountdownDemoUITests;
+			productReference = C6AA822F1D8006CD00CA2419 /* YMCountdownDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6AA82031D8006CD00CA2419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YM;
+				TargetAttributes = {
+					C6AA820A1D8006CD00CA2419 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C6AA82231D8006CD00CA2419 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C6AA820A1D8006CD00CA2419;
+					};
+					C6AA822E1D8006CD00CA2419 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C6AA820A1D8006CD00CA2419;
+					};
+				};
+			};
+			buildConfigurationList = C6AA82061D8006CD00CA2419 /* Build configuration list for PBXProject "YMCountdownDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6AA82021D8006CD00CA2419;
+			productRefGroup = C6AA820C1D8006CD00CA2419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6AA820A1D8006CD00CA2419 /* YMCountdownDemo */,
+				C6AA82231D8006CD00CA2419 /* YMCountdownDemoTests */,
+				C6AA822E1D8006CD00CA2419 /* YMCountdownDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6AA82091D8006CD00CA2419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AA821E1D8006CD00CA2419 /* LaunchScreen.storyboard in Resources */,
+				C6AA821B1D8006CD00CA2419 /* Assets.xcassets in Resources */,
+				C6AA82191D8006CD00CA2419 /* Main.storyboard in Resources */,
+				C6AA824B1D800D0100CA2419 /* YMCountDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AA82221D8006CD00CA2419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AA822D1D8006CD00CA2419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6AA82071D8006CD00CA2419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AA82161D8006CD00CA2419 /* ViewController.m in Sources */,
+				C6AA82131D8006CD00CA2419 /* AppDelegate.m in Sources */,
+				C6AA82101D8006CD00CA2419 /* main.m in Sources */,
+				C6AA824A1D800D0100CA2419 /* YMCountDownCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AA82201D8006CD00CA2419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AA82291D8006CD00CA2419 /* YMCountdownDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AA822B1D8006CD00CA2419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AA82341D8006CD00CA2419 /* YMCountdownDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6AA82261D8006CD00CA2419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6AA820A1D8006CD00CA2419 /* YMCountdownDemo */;
+			targetProxy = C6AA82251D8006CD00CA2419 /* PBXContainerItemProxy */;
+		};
+		C6AA82311D8006CD00CA2419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6AA820A1D8006CD00CA2419 /* YMCountdownDemo */;
+			targetProxy = C6AA82301D8006CD00CA2419 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6AA82171D8006CD00CA2419 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6AA82181D8006CD00CA2419 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6AA821C1D8006CD00CA2419 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6AA821D1D8006CD00CA2419 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6AA82361D8006CD00CA2419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6AA82371D8006CD00CA2419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6AA82391D8006CD00CA2419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMCountdownDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jike.YMCountdownDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6AA823A1D8006CD00CA2419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YMCountdownDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jike.YMCountdownDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6AA823C1D8006CD00CA2419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMCountdownDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jike.YMCountdownDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMCountdownDemo.app/YMCountdownDemo";
+			};
+			name = Debug;
+		};
+		C6AA823D1D8006CD00CA2419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YMCountdownDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jike.YMCountdownDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMCountdownDemo.app/YMCountdownDemo";
+			};
+			name = Release;
+		};
+		C6AA823F1D8006CD00CA2419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMCountdownDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jike.YMCountdownDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMCountdownDemo;
+			};
+			name = Debug;
+		};
+		C6AA82401D8006CD00CA2419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YMCountdownDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jike.YMCountdownDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMCountdownDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6AA82061D8006CD00CA2419 /* Build configuration list for PBXProject "YMCountdownDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AA82361D8006CD00CA2419 /* Debug */,
+				C6AA82371D8006CD00CA2419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AA82381D8006CD00CA2419 /* Build configuration list for PBXNativeTarget "YMCountdownDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AA82391D8006CD00CA2419 /* Debug */,
+				C6AA823A1D8006CD00CA2419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6AA823B1D8006CD00CA2419 /* Build configuration list for PBXNativeTarget "YMCountdownDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AA823C1D8006CD00CA2419 /* Debug */,
+				C6AA823D1D8006CD00CA2419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6AA823E1D8006CD00CA2419 /* Build configuration list for PBXNativeTarget "YMCountdownDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AA823F1D8006CD00CA2419 /* Debug */,
+				C6AA82401D8006CD00CA2419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6AA82031D8006CD00CA2419 /* Project object */;
+}
